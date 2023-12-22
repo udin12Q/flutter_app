@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Main gan',
+      title: 'CuanKu',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'App'),
+      home: const MyHomePage(title: 'Metode Pembayaran'),
     );
   }
 }
@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
                     width: 100,
                   ),
                   Container(
-                    color: Colors.yellow,
+                    color: Colors.pink,
                     height: 100,
                     width: 100,
                   ),
@@ -55,15 +55,19 @@ class MyHomePage extends StatelessWidget {
                     height: 100,
                     width: 100,
                   ),
+                  Column(
+                    children: [
+                      Container(
+                        color: Colors.grey,
+                        height: 100,
+                        width: 100,
+                      ),
+                    ],
+                  ),
                 ],
               ),
               SizedBox(
                 height: 30,
-              ),
-              Container(
-                color: Colors.blueAccent,
-                height: 100,
-                width: double.infinity,
               ),
             ],
           ),
