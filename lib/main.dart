@@ -41,12 +41,12 @@ class MyHomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Container(
-                    color: Colors.pink,
+                    color: Colors.grey,
                     height: 100,
                     width: 100,
                   ),
                   Container(
-                    color: Colors.pink,
+                    color: Colors.grey,
                     height: 100,
                     width: 100,
                   ),
